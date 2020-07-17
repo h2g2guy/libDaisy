@@ -220,6 +220,7 @@ CPPFLAGS = $(CFLAGS)
 CPPFLAGS += \
 -fno-exceptions \
 -finline-functions
+-std=c++11
 
 #######################################
 # LDFLAGS
