@@ -219,7 +219,7 @@ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@:%.o=%.d)"
 CPPFLAGS = $(CFLAGS)
 CPPFLAGS += \
 -fno-exceptions \
--finline-functions
+-finline-functions \
 -std=c++11
 
 #######################################
